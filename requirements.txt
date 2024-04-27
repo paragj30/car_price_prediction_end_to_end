@@ -3,6 +3,7 @@ numpy
 python-dotenv ##helps us to read any ".env" file.
 mysql-connector-python
 pymysql
+dvc
 
 seaborn
 matplotlib
