@@ -1,4 +1,4 @@
-Make,Model,Year,Engine Fuel Type,Engine HP,Engine Cylinders,Transmission Type,Driven_Wheels,Number of Doors,Market Category,Vehicle Size,Vehicle Style,highway MPG,city mpg,Popularity,MSRP
+Make,Model,Year,Engine_Fuel_Type,Engine_HP,Engine_Cylinders,Transmission_Type,Driven_Wheels,Number_of_Doors,Market_Category,Vehicle_Size,Vehicle_Style,highway_MPG,city_mpg,Popularity,MSRP
 Cadillac,CT6,2016,premium unleaded (recommended),265.0,4.0,AUTOMATIC,rear wheel drive,4.0,Luxury,Large,Sedan,31,22,1624,53495
 Mercedes-Benz,GLS-Class,2017,premium unleaded (required),449.0,8.0,AUTOMATIC,all wheel drive,4.0,"Crossover,Luxury,Performance",Large,4dr SUV,18,14,617,93850
 Kia,Forte,2016,regular unleaded,173.0,4.0,AUTOMATIC,front wheel drive,2.0,,Compact,Coupe,34,25,1720,19890

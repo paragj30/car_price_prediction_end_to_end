@@ -1,4 +1,4 @@
-Make,Model,Year,Engine Fuel Type,Engine HP,Engine Cylinders,Transmission Type,Driven_Wheels,Number of Doors,Market Category,Vehicle Size,Vehicle Style,highway MPG,city mpg,Popularity,MSRP
+Make,Model,Year,Engine_Fuel_Type,Engine_HP,Engine_Cylinders,Transmission_Type,Driven_Wheels,Number_of_Doors,Market_Category,Vehicle_Size,Vehicle_Style,highway_MPG,city_mpg,Popularity,MSRP
 GMC,Envoy XL,2005,regular unleaded,275.0,6.0,AUTOMATIC,rear wheel drive,4.0,,Large,4dr SUV,18,13,549,29695
 Volkswagen,Passat,2016,regular unleaded,170.0,4.0,AUTOMATIC,front wheel drive,4.0,,Midsize,Sedan,38,25,873,30495
 Honda,Odyssey,2016,regular unleaded,248.0,6.0,AUTOMATIC,front wheel drive,4.0,,Large,Passenger Minivan,28,19,2202,37650

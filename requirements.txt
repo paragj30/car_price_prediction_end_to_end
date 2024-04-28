@@ -14,4 +14,7 @@ scikit-learn
 catboost
 xgboost
 
+flask
+mlflow==2.2.2
+dill
 ## -e .

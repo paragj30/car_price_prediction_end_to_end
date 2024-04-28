@@ -35,8 +35,8 @@ class DataTransformation:
             #numerical_columns = [feature for feature in df.columns if df[feature].dtype != 'O']
             #categorical_columns = [feature for feature in df.columns if df[feature].dtype == 'O']
 
-            numerical_columns = ['Year', 'Engine HP', 'Engine Cylinders', 'Number of Doors', 'highway MPG', 'city mpg', 'Popularity']
-            categorical_columns = ['Make', 'Model', 'Engine Fuel Type', 'Transmission Type', 'Driven_Wheels', 'Market Category', 'Vehicle Size', 'Vehicle Style']
+            numerical_columns = ['Year', 'Engine_HP', 'Engine_Cylinders', 'Number_of_Doors', 'highway_MPG', 'city_mpg', 'Popularity']
+            categorical_columns = ['Make', 'Model', 'Engine_Fuel_Type', 'Transmission_Type', 'Driven_Wheels', 'Market_Category', 'Vehicle_Size', 'Vehicle_Style']
 
             num_pipeline=Pipeline(steps=[
                 ("imputer",SimpleImputer(strategy='median')),
@@ -77,15 +77,13 @@ class DataTransformation:
             preprocessing_obj=self.get_data_transformer_object()
 
             target_column_name = "MSRP"
-            numerical_columns = ['Year', 'Engine HP', 'Engine Cylinders', 'Number of Doors', 'highway MPG', 'city mpg', 'Popularity']
+            numerical_columns = ['Year', 'Engine_HP', 'Engine_Cylinders', 'Number_of_Doors', 'highway_MPG', 'city_mpg', 'Popularity']
 
             ## divide the train dataset to independent and dependent feature
-
             input_features_train_df=train_df.drop(columns=[target_column_name],axis=1)
             target_feature_train_df=train_df[target_column_name]
 
             ## divide the test dataset to independent and dependent feature
-
             input_feature_test_df=test_df.drop(columns=[target_column_name],axis=1)
             target_feature_test_df=test_df[target_column_name]
 
@@ -103,24 +101,15 @@ class DataTransformation:
             logging.info(f"Saved preprocessing object")
 
             save_object(
-
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj
             )
 
             return (
-
                 train_arr,
                 test_arr,
                 self.data_transformation_config.preprocessor_obj_file_path
             )
-
-
-
-
-
-
-
 
         except Exception as e:
             raise CustomException(sys,e)

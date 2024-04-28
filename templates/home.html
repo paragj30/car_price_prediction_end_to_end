@@ -1,0 +1,113 @@
+
+<html>
+<body>
+    <div class="login">
+       <h1>Car Price Prediction</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Car Price Prediction</legend>
+        </h1>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Make</label>
+            <input class="form-control" name="Make"
+                placeholder="Enter brand/manufacturer name of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Model Name</label>
+            <input class="form-control" name="Model"
+                placeholder="Enter model name of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Model Year</label>
+            <input class="form-control" type="number" name="Year"
+                placeholder="Enter your Model Year" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Engine Fuel Type</label>
+            <input class="form-control" name="Engine_Fuel_Type"
+                placeholder="Enter Engine Fuel Type of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Engine_HP</label>
+            <input class="form-control" type="number" name="Engine_HP"
+                placeholder="Enter Engine HP of your Vehicle" />
+        </div>
+
+
+        </div> <div class="mb-3">
+            <label class="form-label">Engine_Cylinders</label>
+            <input class="form-control" type="number" name="Engine_Cylinders"
+                placeholder="Enter Engine Cylinders of your Vehicle" />
+        </div>
+    
+        </div> <div class="mb-3">
+            <label class="form-label">Transmission_Type</label>
+            <input class="form-control" name="Transmission_Type"
+                placeholder="Enter Transmission Type of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Driven_Wheels</label>
+            <input class="form-control" name="Driven_Wheels"
+                placeholder="Enter Driven_Wheels of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Number_of_Doors</label>
+            <input class="form-control" name="Number_of_Doors"
+                placeholder="Enter Number of Doors of your Vehicle" />
+        </div>
+
+        </div> <div class="mb-3">
+            <label class="form-label">Market_Category</label>
+            <input class="form-control" name="Market_Category"
+                placeholder="Enter Market Category of your Vehicle" />
+        </div>
+  
+
+        </div> <div class="mb-3">
+            <label class="form-label">Vehicle_Size</label>
+            <input class="form-control" name="Vehicle_Size"
+                placeholder="Enter size of your Vehicle" />
+        </div>
+        
+        </div> <div class="mb-3">
+            <label class="form-label">Vehicle_Style</label>
+            <input class="form-control" name="Vehicle_Style"
+                placeholder="Enter Style of your Vehicle" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">highway_MPG</label>
+            <input class="form-control" type="number" name="highway_MPG"
+                placeholder="Enter MPG on highway of your Vehicle" />
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label">city_mpg</label>
+            <input class="form-control" type="number" name="city_mpg"
+                placeholder="Enter MPG on City of your Vehicle" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Popularity</label>
+            <input class="form-control" type="number" name="Popularity"
+                placeholder="Enter Popularity of your Vehicle" />
+        </div>
+
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your Car Price" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>

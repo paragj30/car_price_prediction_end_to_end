@@ -18,6 +18,8 @@ user=os.getenv("user")
 password=os.getenv("password")
 db=os.getenv('db')
 
+
+
 def read_sql_data():
     logging.info("Reading SQL database started")
     try:
@@ -28,13 +30,15 @@ def read_sql_data():
             db=db
         )
         logging.info("Connection Established",mydb)
-        df=pd.read_sql_query('Select * from cars_data',mydb)
+        df=pd.read_sql_query('Select * from students',mydb)
         print(df.head())
+
         return df
 
     except Exception as ex:
         raise CustomException(ex)
-  
+    
+
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
@@ -47,7 +51,6 @@ def save_object(file_path, obj):
     except Exception as e:
         raise CustomException(e, sys)
 
-'''  
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
         report = {}
@@ -78,4 +81,11 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
 
     except Exception as e:
         raise CustomException(e, sys)
-'''
+    
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return pickle.load(file_obj)
+
+    except Exception as e:
+        raise CustomException(e, sys)
