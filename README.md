@@ -4,7 +4,7 @@
 
 **The dataset** The goal is to predict `MSRP` of given vehicle (Regression Analysis).
 
-There are 16 independent variables:
+There are 15 independent variables:
 
 * `Make` : The Make feature is the brand name of the Car.
 * `Model` : The Model feature is the brand of model or different version of Car models.
@@ -25,8 +25,8 @@ There are 16 independent variables:
 Target variable:
 * `MSRP` : The price of that car.
 
-Dataset Source Link :
-https://github.com/paragj30/car_price_prediction_end_to_end/blob/main/notebook/data/Cars_data.csv
+Dataset Link :
+[Dataset Link](https://www.kaggle.com/datasets/CooperUnion/cardataset)
 
 
 ### Approach for the project 
