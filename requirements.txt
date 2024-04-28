@@ -15,5 +15,6 @@ catboost
 xgboost
 
 flask
+gunicorn
 mlflow==2.2.2
 dill
