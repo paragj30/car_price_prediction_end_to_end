@@ -6,18 +6,18 @@
 
 There are 15 independent variables:
 
-* `Make` : The Make feature is the brand name of the Car.
+* `Make` : The Make feature is the brand name of the Car. e..g, 'BMW', 'Audi', 'Mercedes-Benz', 'Volvo', 'Mitsubishi', 'Ferrari', 'Porsche', 'Ford' 'Kia', 'Lamborghini', 'Rolls-Royce', ''Land Rover', 'Tesla', 'Bugatti', etc.
 * `Model` : The Model feature is the brand of model or different version of Car models.
 * `Year` : The year describes the year of launched.
-* `Engine Fuel Type` : It defines the Fuel type of the car model.
+* `Engine Fuel Type` : It defines the Fuel type of the car model. e.g., 'premium unleaded', 'regular unleaded', 'flex-fuel', 'diesel', 'electric' 'natural gas', etc.
 * `Engine HP` : Engine HP means Horsepower that refers to the power an engine produces.
 * `Engine Cylinders` : Engine Cylinders are number of cylinders in present in the engine.
-* `Transmission Type` : It is the type of feature that describe about the car transmission type i.e Mannual or automatic.
-* `Driven_Wheels` : The type of wheel drive.
+* `Transmission Type` : It is the type of feature that describe about the car transmission type i.e Mannual or automatic. e.g., 'MANUAL', 'AUTOMATIC', 'AUTOMATED_MANUAL'.
+* `Driven_Wheels` : The type of wheel drive. e.g., 'rear wheel drive', 'front wheel drive', 'all wheel drive', 'four wheel drive', etc.
 * `No of doors` : It defined number of doors present in the car.
-* `Market Category` : This features tells about the type of car or which category the car belongs.
-* `Vehicle Size` : It's say about the about car size.
-* `Vehicle Style` : The feature is all about the style that belongs to car.
+* `Market Category` : This features tells about the type of car or which category the car belongs. e.g., 'Luxury', 'Performance', 'Crossover', 'Hatchback', etc.
+* `Vehicle Size` : It's say about the about car size. e.g., 'Compact', 'Midsize', 'Large'.
+* `Vehicle Style` : The feature is all about the style that belongs to car. e.g., 'Coupe', 'Sedan', 'Wagon', 'Hatchback', 'SUV', 'Passenger Minivan', 'Passenger Van', etc.
 * `highway MPG` : The average a car will get while driving on an open stretch of road without stopping or starting, typically at a higher speed.
 * `city mpg` : City MPG refers to driving with occasional stopping and braking.
 * `Popularity` : It can refered to rating of that car or popularity of car.
