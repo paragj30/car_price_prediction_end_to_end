@@ -12,7 +12,7 @@ from src.Car_Price_Prediction_Data_Science.components.data_ingestion import Data
 
 from src.Car_Price_Prediction_Data_Science.components.data_transformation import DataTransformationConfig, DataTransformation
 from src.Car_Price_Prediction_Data_Science.components.model_training import ModelTrainerConfig, ModelTrainer
-'''
+
 application=Flask(__name__)
 
 app=application
@@ -65,8 +65,8 @@ if __name__=="__main__":
 #192.168.178.153:5000/predictdata // localhost:5000/predictdata // 127.0.0.1:5000/predictdata
 '''
 if __name__ == "__main__":
-    
     logging.info('Testing_1: The execution has started')
+    
     try:
         data_ingestion = DataIngestion()
         train_data_path, test_data_path = data_ingestion.initiate_data_ingestion()
@@ -83,3 +83,4 @@ if __name__ == "__main__":
     except Exception as e:
         logging.info('Custom Exception')
         raise CustomException(e, sys)
+        '''
