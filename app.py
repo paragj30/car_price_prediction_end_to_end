@@ -58,8 +58,11 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0", debug=True)        
+    app.run(host="0.0.0.0",
+            port = 5000,
+            debug=True)        
 
+#192.168.178.153:5000/predictdata // localhost:5000/predictdata // 127.0.0.1:5000/predictdata
 '''
 if __name__ == "__main__":
     

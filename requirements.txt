@@ -3,18 +3,17 @@ numpy
 
 ipykernel
 
-python-dotenv ##helps us to read any ".env" file.
+python-dotenv 
 mysql-connector-python
 pymysql
 dvc
 
 seaborn
 matplotlib
-scikit-learn
+scikit-learn==1.4.2
 catboost
 xgboost
 
 flask
 mlflow==2.2.2
 dill
-## -e .
