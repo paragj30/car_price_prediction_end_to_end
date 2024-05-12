@@ -83,7 +83,7 @@ conda activate venv/
 git clone https://github.com/paragj30/car_price_prediction_end_to_end.git
 ```
 
-4. Enter inside the red_wine_quality_prediction folder.
+4. Enter inside the car_price_prediction folder.
 ```bash
 cd \folder_location
 ```
@@ -116,7 +116,7 @@ docker pull paragj30/car_price_prediction_apps:latest
 
 3. Run the docker image command:
 ```bash
-docker run -d -p 8080:8080 paragj30/wine-quality-prediction-app
+docker run -d -p 8080:8080 paragj30/car_price_prediction_apps
 ```
 
 4. Open the web browser and copy past the link below:
