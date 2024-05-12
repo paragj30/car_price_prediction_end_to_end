@@ -18,3 +18,4 @@ flask
 gunicorn
 mlflow
 dill
+-e .

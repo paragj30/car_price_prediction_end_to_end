@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Parag%20Jadhav/Downloads/ML_Deployment/Car_Price_Prediction/mlruns/0/8c9ebfcee40c4f4fa529bfd183399d0f/artifacts
+end_time: 1714334278620
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c9ebfcee40c4f4fa529bfd183399d0f
+run_name: suave-skunk-764
+run_uuid: 8c9ebfcee40c4f4fa529bfd183399d0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714334263606
+status: 3
+tags: []
+user_id: root
