@@ -1,5 +1,29 @@
 # End to end Car Price Prediction Data Science Project - Parag Jadhav 
 
+## Technologies Used
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+<p>
+<a><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" alt="python"/></a>
+<a><img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/></a>
+<a><img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" alt="numpy"/></a>
+<a><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)" alt="docker"/></a>
+</p>
+
+
+## Problem statement
+
+One of well know start-up in India, is an online marketplace that enables customers to sell or buy a vehicle throughout Germany. When they receive a request to sell an automobile, one of their sales representatives goes to the client's location to gather all the information, including Brand Name, Model Name, year, Engine Fuel Type, and Engine HP, etc. Once you return to the office, the backend staff will analyze the information that the salesperson supplied and forecast the car's current pricing. The salesperson then visits the client once more to discuss the price.
+
+They find the process to be extremely time-consuming, so they resolve to make it intelligent, automated, and clever. They therefore decide to use a system that will forecast the client's pricing. As a result, the client will be pleased with the special response and be able to sell or buy a car through xxxxx.com, increasing the company's share price by 35% after making the procedure quick and creative.
+
+## Solutions:
+Created a website that will display the current pricing of the automobile based on user inputs such as Brand Name, Model Name, year, Engine Fuel Type, and Engine HP, etc. A machine learning algorithm will automatically forecast the price of the car based on its characteristics.
+
+## Demo
+
+![Prediction Page](./app-results/prediction.png)
+
 ### Introduction About the Data :
 
 **The dataset** The goal is to predict `MSRP` of given vehicle (Regression Analysis).
